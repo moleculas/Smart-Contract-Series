@@ -1,0 +1,9 @@
+/* Styles go here */
+body {
+    /* display: flex; */
+  }
+  
+ .tipo-inputs{
+   font-size: 1.8vh
+   /* font-size: 1vw */
+ }

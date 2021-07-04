@@ -1,0 +1,39 @@
+.Timeline {
+  margin-top: 24px;
+}
+.Timeline-point {
+  margin-left: 16px;
+  margin-bottom: 6px;
+  color: #888;
+  &.in-progress {
+    color: #e7b558;
+  }
+  &.done {
+    color: #27C200;
+  }
+  &.reject {
+    text-decoration: line-through;
+  }
+}
+.ProgressBar-container {
+  margin-top: 16px;
+  position: relative;
+}
+.ProgressBar-background {
+  background-color: #f2f2f2;
+  border-radius: 30px;
+  height: 8px;
+}
+.ProgressBar-progress {
+  background-color: #27C200;
+  border-radius: 30px;
+  height: 8px;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  transition: all .5s;
+  &.reject {
+    background-color: red;
+  }
+}
