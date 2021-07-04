@@ -1,6 +1,6 @@
 # Smart-Contract Real-Estate
 
-Smart Contract para gestión inmobiliaria. (Compra y venta de inmuebleas con 3 actores: Comprador, Vendedor, Gestor inmobiliario).
+Smart Contract para gestión inmobiliaria. (Compra y venta de inmuebles con 3 actores: Comprador, Vendedor, Gestor inmobiliario).
 
 ## Desarrollo
 
