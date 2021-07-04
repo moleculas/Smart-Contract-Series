@@ -6,8 +6,6 @@ Smart Contract para gestionar el fichaje de usuarios en una empresa. El Smart Co
 
 **BackEnd:** Smart Contracts [Solidity](https://solidity-es.readthedocs.io/es/latest/) desplegados en blochchain local con [Ganache](https://www.trufflesuite.com/ganache).
 
-**FrontEnd:** Aplicación descentralizada (DAPP) [React](https://es.reactjs.org/).
-
 ## Herramientas
 
 **Truffle:** Entorno de desarrollo de activos para cadenas de bloques que utilizan la máquina virtual Ethereum (EVM). [Truffle](https://www.trufflesuite.com/truffle).
