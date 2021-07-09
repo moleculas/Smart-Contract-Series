@@ -24,7 +24,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"GetMisRegistros\",\"outputs\":[{\"internalType\":\"uint256[]\",\"name\":\"\",\"type\":\"uint256[]\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"Registro\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/E/source/SMART-CONTRACTS/Control-Fichaje/src/contracts/ControlFichaje.sol\":\"ControlFichaje\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/E/source/SMART-CONTRACTS/Control-Fichaje/src/contracts/ControlFichaje.sol\":{\"keccak256\":\"0x816092a81255700b0ffbe37355a68dab79a2146ee196fc7d7dd37cc2f8685207\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a7d9a9a978c96a865ab29004786c5c55834635b291fe60cf5e47a966f06c116a\",\"dweb:/ipfs/Qmdi65f8JT2caAKnfZLzJyX28gadQ9H4FAh3bmxrvZJeKy\"]}},\"version\":1}",
@@ -3150,9 +3151,17 @@
     "name": "solc",
     "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xE3675987FAAe915567f449F86593e8fC79539F77",
+      "transactionHash": "0x53c6879f1a9b8ac0ec6196515aa337326b416a7c89f0aeab35e605abbfb7552f"
+    }
+  },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-07-04T19:23:29.726Z",
+  "updatedAt": "2021-07-04T20:45:13.477Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
